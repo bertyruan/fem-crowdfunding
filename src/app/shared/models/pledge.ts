@@ -1,6 +1,6 @@
 export interface Pledge {
     reward: string,
-    perkDescription: string,
+    rewardDescription: string,
     minPledge: number,
     spotsRemaining: number
 }

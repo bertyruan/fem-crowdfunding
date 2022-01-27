@@ -1,0 +1,22 @@
+<div class="container">
+    <h2>Back this project</h2>
+    <p>Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
+    <div *ngFor="let pledge of pledges">
+        <input type="radio">
+        <div class="pledge__reward">{{pledge.reward}}</div>
+        <div class="pledge__amount">Pledge {{pledge.minPledge | currency}} or more </div>
+        <div class="pledge__description">{{pledge.rewardDescription}}</div>
+        <div class="pledge__remaining-spots">{{pledge.spotsRemaining}}</div>
+        <div *ngIf="isPledgeSelected" class="pledge__selected">
+            <hr>
+            <p>Enter your pledge</p>
+            <input type="text">
+            <button>Continue</button>  
+        </div>
+    </div>
+</div>
+
+<!-- Thanks for your support!
+Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get
+an email once our campaign is completed.
+Got it! -->
