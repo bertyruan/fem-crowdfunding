@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { PledgeButton } from './shared/directives/pledgeButton.directive';
-import { CheckoutPledgeComponent } from './components/checkoutPledge/pledges.component';
+import { CheckoutPledgeComponent } from './components/checkout-pledge/checkout-pledge.component';
 
 @NgModule({
   declarations: [

@@ -4,8 +4,8 @@ import { Pledge } from 'src/app/shared/models/pledge';
 
 @Component({
   selector: 'app-checkout-pledge',
-  templateUrl: './checkoutPledge.component.html',
-  styleUrls: ['./checkoutPledge.component.css']
+  templateUrl: './checkout-pledge.component.html',
+  styleUrls: ['./checkout-pledge.component.css']
 })
 export class CheckoutPledgeComponent implements OnInit {
 
