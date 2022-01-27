@@ -42,7 +42,12 @@
               <span class="pledge__remaining-spots">{{pledge.spotsRemaining}}</span>
               left
             </div>
-            <button [pledgeButton]="pledge.spotsRemaining" (click)="openPopup(pledge.reward)"></button>
+            <button 
+              [pledgeButton]="pledge.spotsRemaining" 
+              (click)="openPopup(pledge.reward)"
+              >
+              a
+            </button>
           </div>
         </div>
       </div>
