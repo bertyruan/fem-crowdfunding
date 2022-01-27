@@ -1,2 +1,20 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+@import '../assets/styles/styles.scss';
+
+// .attribution { font-size: 11px; text-align: center; }
+// .attribution a { color: hsl(228, 45%, 44%); }
+
+div {
+    font-family: $font-family;
+}
+
+.two {
+    font-weight: 200;
+}
+
+.three {
+    font-weight: 800;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}

@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { PledgeButton } from './shared/directives/pledgeButton.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PledgeButton
   ],
   imports: [
     BrowserModule
