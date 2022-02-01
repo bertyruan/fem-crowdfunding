@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { PledgeButton } from './shared/directives/pledge-button/pledge-button.directive';
 import { CheckoutPledgeComponent } from './components/checkout-pledge/checkout-pledge.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { CheckoutPledgeComponent } from './components/checkout-pledge/checkout-p
     CheckoutPledgeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
